@@ -12,7 +12,7 @@ If running through node/terminal, please begin by inputting npm i. This will hel
 
 ## Usage
 
-You may also go directly to the deployed website as well at: 
+You may also go directly to the deployed website as well at: https://sheltered-mesa-36134.herokuapp.com/
 
 ![main page](./public/assets/Image/index_page.png)
 
