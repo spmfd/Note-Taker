@@ -2,6 +2,7 @@
 const fs = require('fs');
 const express = require('express');
 const path = require('path');
+const app = express();
 
 // Accessing the Notes Database
 const notesDB = require('./db/db.json');
@@ -12,8 +13,6 @@ const { v4: uuidv4 } = require('uuid');
 // Port created for server
 const PORT = process.env.PORT || 3001;
 
-
-const app = express();
 
 
 // Middleware, got suggestion from stackoverflow
